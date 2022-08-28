@@ -1,0 +1,20 @@
+{
+  "home": {
+    "lang": {
+      "pt": "<i>PT</i>",
+      "en": "EN"
+    },
+    "content": {
+      "description": "MENTE CRIATIVA • UI & WEB DEVELOPER",
+      "slogan": {
+        "one": "<i>PESSOAS</i>",
+        "two": "<i>ARTE</i>",
+        "three": "<i>TECNOLOGIA</i>"
+      },
+      "location": "<b>RIO DE JANEIRO — BRASIL</b>",
+      "links": {
+        "contact": "CONTATO"
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "home": {
+    "lang": {
+      "pt": "PT",
+      "en": "<i>EN</i>"
+    },
+    "content": {
+      "description": "CREATIVE MIND • UI & WEB DEVELOPER",
+      "slogan": {
+        "one": "<i>PEOPLE</i>",
+        "two": "<i>ART</i>",
+        "three": "<i>TECH</i>"
+      },
+      "location": "<b>RIO DE JANEIRO — BRAZIL</b>",
+      "links": {
+        "contact": "CONTACT"
+      }
+    }
+  }
+}

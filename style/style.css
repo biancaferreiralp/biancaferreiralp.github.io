@@ -1,0 +1,58 @@
+/* Elements style */
+
+body {
+  background-color: #f5f5f5;
+  color: #212121;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 9px;
+  letter-spacing: 1px;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 25px 40px 0;
+}
+
+a {
+  color: #212121;
+}
+
+a:hover {
+  color: #212121;
+  text-decoration: none;
+}
+
+
+/* Personalized style */
+
+.justified {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* Section style */
+
+#homepage {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+#homepage .content {
+  width: fit-content;
+  height: 150px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+#homepage .fa-chevron-down {
+  font-size: 12px;
+  margin-bottom: 25px;
+}
