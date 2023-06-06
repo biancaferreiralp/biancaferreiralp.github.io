@@ -5,7 +5,10 @@
       "en": "EN"
     },
     "content": {
-      "description": "MENTE CRIATIVA • UI & WEB DEVELOPER",
+      "description": {
+        "one": "MENTE CRIATIVA",
+        "two": "UI & WEB DEVELOPER"
+      },
       "slogan": {
         "one": "<i>PESSOAS</i>",
         "two": "<i>ARTE</i>",

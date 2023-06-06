@@ -4,7 +4,7 @@ body {
   background-color: #f5f5f5;
   color: #212121;
   font-family: 'Roboto Mono', monospace;
-  font-size: 9px;
+  font-size: 9.6px;
   letter-spacing: 1px;
 }
 
@@ -24,6 +24,10 @@ a:hover {
   text-decoration: none;
 }
 
+img {
+  width: 60%;
+}
+
 
 /* Personalized style */
 
@@ -32,6 +36,11 @@ a:hover {
   justify-content: space-between;
 }
 
+.profile-picture {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0 30px;
+}
 
 /* Section style */
 
@@ -45,8 +54,7 @@ a:hover {
 }
 
 #homepage .content {
-  width: fit-content;
-  height: 150px;
+  width: 250px;
   display: flex;
   flex-flow: column;
   justify-content: space-between;

@@ -5,7 +5,10 @@
       "en": "<i>EN</i>"
     },
     "content": {
-      "description": "CREATIVE MIND • UI & WEB DEVELOPER",
+      "description": {
+        "one": "CREATIVE MIND",
+        "two": "UI & WEB DEVELOPER"
+      },
       "slogan": {
         "one": "<i>PEOPLE</i>",
         "two": "<i>ART</i>",
