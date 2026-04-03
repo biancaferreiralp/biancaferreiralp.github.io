@@ -6,6 +6,7 @@ body {
   font-family: 'Roboto Mono', monospace;
   font-size: 9.6px;
   letter-spacing: 1px;
+  overflow: hidden;
 }
 
 nav {
