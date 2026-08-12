@@ -278,7 +278,16 @@ footer {
 /* Responsiveness */
 
 /* Tablet */
-@media (max-width: 768px) {
+@media (max-width: 820px) {
+  section {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  #home {
+    padding-top: 30px;
+  }
+
   .menu-links {
     display: flex;
     flex-direction: column;
@@ -329,10 +338,24 @@ footer {
   #contact form .form-button {
     width: 100% !important;
   }
+
+  #footer {
+    padding-bottom: 30px;
+  }
 }
 
 /* Mobile */
 @media (max-width: 480px) {
+  section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #home {
+    padding-top: 20px;
+    height: 90vh;
+  }
+
   body {
     font-size: 13px;
   }
@@ -350,8 +373,21 @@ footer {
   }
 
   #clients div {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; */
+    margin-bottom: 0;
+  }
+
+  #clients .logo-teledipity {
+    width: 180px;
+  }
+
+  #services .service p:last-of-type {
+    margin-bottom: 0;
+  }
+
+  #footer {
+    padding-bottom: 20px;
   }
 }
