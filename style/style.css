@@ -45,6 +45,7 @@ a, a:hover {
 }
 
 footer {
+  width: 100%;
   height: 90px;
   display: flex;
   justify-content: center;
@@ -54,6 +55,11 @@ footer {
 }
 
 /* ID / Class style */
+
+#container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
 
 #home {
   display: flex;
@@ -273,12 +279,15 @@ footer {
 
 /* Tablet */
 @media (max-width: 768px) {
-  section {
-    padding: 30px;
+  .menu-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .menu-links .sections {
-    width: 70%;
+    width: 100%;
+    margin-bottom: 20px;
   }
 
   .intro p {
@@ -324,10 +333,6 @@ footer {
 
 /* Mobile */
 @media (max-width: 480px) {
-  section {
-    padding: 20px;
-  }
-
   body {
     font-size: 13px;
   }
@@ -337,7 +342,6 @@ footer {
   }
 
   .menu-links .sections {
-    gap: 14px;
     font-size: 10px;
   }
 
